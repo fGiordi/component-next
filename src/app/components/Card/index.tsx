@@ -20,7 +20,7 @@ export default function Card({
       <div className="flex justify-between  items-center space-x-6 px-6 h-[50px]">
         <h2 className="text-white">Cart ({cartItems})</h2>
         <div className="flex items-center justify-center space-x-2">
-          <span>Advanced Options</span>
+          <span>Advanced Orders</span>
           <Switch
             checked={enabled}
             onChange={setEnabled}
