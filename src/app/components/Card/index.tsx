@@ -74,10 +74,11 @@ export default function Card({
         <h2 className="text-gray-800">Price(0)</h2>
         <div className="flex gap-2">
           <svg
+            width="14"
+            height="20"
             viewBox="0 0 20 20"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-5 h-5 bg-blue-500"
-            fill="white"
           >
             <use href="#solana-icon"></use>
           </svg>
@@ -134,6 +135,10 @@ export default function Card({
         >
           Connect Wallat
         </button>
+        <p className="text-gray-800">
+          By clicking "Connect wallet", you agree to the Lorem ipsum dolor sit
+          amet.
+        </p>
       </div>
     </div>
   );
