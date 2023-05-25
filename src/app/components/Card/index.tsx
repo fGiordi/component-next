@@ -79,6 +79,7 @@ export default function Card({
             viewBox="0 0 20 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="w-5 h-5 bg-blue-500"
           >
             <use href="#solana-icon"></use>
           </svg>
