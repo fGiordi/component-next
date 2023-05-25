@@ -135,7 +135,7 @@ export default function Card({
         >
           Connect Wallat
         </button>
-        <p className="text-gray-800">
+        <p className="text-gray-800 pt-2">
           By clicking "Connect wallet", you agree to the Lorem ipsum dolor sit
           amet.
         </p>
